@@ -1,0 +1,98 @@
+<!DOCTYPE html><html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <title>فایل‌های درس ریاضی</title>
+  <style>
+    * { box-sizing: border-box; font-family: Vazirmatn, Tahoma, sans-serif; }
+    body {
+      margin: 0;
+      background: #f2f5f9;
+    }
+    header {
+      padding: 20px;
+      background: #ffffff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,.05);
+    }
+    .dark-btn {
+      background: #333;
+      color: #fff;
+      padding: 8px 14px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    main {
+      max-width: 800px;
+      margin: 30px auto;
+      background: #fff;
+      border-radius: 16px;
+      padding: 25px;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .views {
+      text-align: center;
+      color: #666;
+      margin-bottom: 25px;
+    }
+    .file {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #f7faff;
+      padding: 15px 18px;
+      border-radius: 12px;
+      margin-bottom: 12px;
+    }
+    .file-name {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .file-name span {
+      font-size: 16px;
+    }
+    .download {
+      background: #1e88e5;
+      color: #fff;
+      padding: 8px 18px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    body.dark {
+      background: #121212;
+      color: #fff;
+    }
+    body.dark main { background: #1e1e1e; }
+    body.dark header { background: #1e1e1e; }
+    body.dark .file { background: #2a2a2a; }
+  </style>
+</head>
+<body><header>
+  <div class="dark-btn" onclick="toggleDark()">🌙 حالت تاریک</div>
+</header><main>
+  <h1>📘 فایل‌های درس ریاضی</h1>
+  <div class="views">تعداد بازدید شما: 12</div>  <div class="file">
+    <div class="file-name">📄 <span>تکمیلی و هندسه.pdf</span></div>
+    <a class="download" href="#">دانلود</a>
+  </div>  <div class="file">
+    <div class="file-name">📄 <span>جلسه آخر فصل 3.pdf</span></div>
+    <a class="download" href="#">دانلود</a>
+  </div>  <div class="file">
+    <div class="file-name">📄 <span>چند سوال از رادیکال.pdf</span></div>
+    <a class="download" href="#">دانلود</a>
+  </div>  <div class="file">
+    <div class="file-name">📄 <span>چند مثال رادیکال و محاسبات.pdf</span></div>
+    <a class="download" href="#">دانلود</a>
+  </div></main><script>
+  function toggleDark() {
+    document.body.classList.toggle('dark');
+  }
+</script></body>
+</html>
